@@ -1,0 +1,2 @@
+Link para dowloan do Git: https://git-scm.com/dowloands
+O Git Bash é um terminal para otimizar o uso do Git
