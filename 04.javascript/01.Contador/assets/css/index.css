@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(181, 109, 230);
+}
+
+.center {
+    display: flex;
+    margin: 40px;
+    padding: 20px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+h1 {
+    margin: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#counter {
+    display: flex;
+    margin: 40px;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: rgb(73, 183, 190);
+    color: black;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 20pt;
+}
