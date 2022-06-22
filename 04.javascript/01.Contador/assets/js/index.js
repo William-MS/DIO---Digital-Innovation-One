@@ -1,4 +1,6 @@
 var currentNumberWrapper = document.getElementById('currentNumber');
+var buttonUp = document.getElementById('buttonUp');
+var buttonDown = document.getElementById('buttonDown');
 var currentNumber = 0;
 
 function increment() {
@@ -14,3 +16,6 @@ function decrement() {
         currentNumberWrapper.innerHTML = currentNumber;
     }
 }
+
+buttonUp.addEventListener('click', increment);
+buttonDown.addEventListener('click', decrement);
