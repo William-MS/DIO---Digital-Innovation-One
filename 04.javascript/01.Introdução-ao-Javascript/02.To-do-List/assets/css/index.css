@@ -12,13 +12,13 @@ html, body {
 .container {
     width: 400px;
     margin: 0 auto;
-    text-align: center;
     border: 2px solid teal;
 }
 
 .container h1 {
     margin: 20px 0;
     font-size: 40px;
+    text-align: center;
 }
 
 input[type="text"]{
@@ -40,5 +40,21 @@ button {
     color: white;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
+
+.lista {
+    margin: 20px;
+}
+
+.item {
+    margin: 10px 0;
+    display: flex;
+}
+
+.item span {
+    margin: 0 5px;
+}
+
+
 

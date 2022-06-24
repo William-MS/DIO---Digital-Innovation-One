@@ -11,12 +11,17 @@
     <div class="container">
         <h1>To do List</h1>
 
-        <input id="novaTarefa" type="text" placeholder="Nova tarefa..." />
-        <button onclick="adicionar()">Adicionar</button>
+        <input id="novaTarefa" type="text" placeholder="Nova tarefa..." value="ss"/>
+        <button id="buttonAdd">Adicionar</button>
 
         <hr />
 
-        <div id="lista" class="lista"></div>
+        <div id="lista" class="lista">
+            <div class="item">
+                <input type="checkbox" value=""/>
+                <span></span>
+            </div>
+        </div>
     </div>
 
     <script src="assets/js/index.js"></script>
